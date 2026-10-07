@@ -24,11 +24,11 @@
                       "Entity": "dim_fecha"
                     }
                   },
-                  "Property": "mes_inicio"
+                  "Property": "anio_trimestre"
                 }
               },
-              "queryRef": "dim_fecha.mes_inicio",
-              "nativeQueryRef": "mes_inicio"
+              "queryRef": "dim_fecha.anio_trimestre",
+              "nativeQueryRef": "anio_trimestre"
             }
           ]
         },
@@ -144,13 +144,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'Segoe UI'"
-                }
-              }
-            },
-            "axisType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Continuous'"
                 }
               }
             }
@@ -286,7 +279,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Cuota renovable mensual'"
+                  "Value": "'Cuota renovable trimestral'"
                 }
               }
             },
@@ -345,7 +338,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Frente al mismo mes del año anterior · % de la generación total'"
+                  "Value": "'Frente al mismo trimestre del año anterior · 2026-T4 solo incluye octubre'"
                 }
               }
             },

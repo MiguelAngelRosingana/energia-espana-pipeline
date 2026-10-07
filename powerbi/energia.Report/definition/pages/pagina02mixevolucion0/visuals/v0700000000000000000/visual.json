@@ -179,7 +179,7 @@
             "titleText": {
               "expr": {
                 "Literal": {
-                  "Value": "'Demanda diaria (GWh)'"
+                  "Value": "'Demanda (GWh/día)'"
                 }
               }
             },
@@ -260,7 +260,7 @@
             "titleText": {
               "expr": {
                 "Literal": {
-                  "Value": "'Generación renovable diaria (GWh)'"
+                  "Value": "'Renovable (GWh/día)'"
                 }
               }
             },
@@ -331,7 +331,7 @@
                     },
                     "Right": {
                       "Literal": {
-                        "Value": "'Laborable'"
+                        "Value": "'Entre semana'"
                       }
                     }
                   }

@@ -24,11 +24,11 @@
                       "Entity": "dim_fecha"
                     }
                   },
-                  "Property": "anio_mes"
+                  "Property": "anio_trimestre"
                 }
               },
-              "queryRef": "dim_fecha.anio_mes",
-              "nativeQueryRef": "anio_mes"
+              "queryRef": "dim_fecha.anio_trimestre",
+              "nativeQueryRef": "anio_trimestre"
             }
           ]
         },
@@ -614,7 +614,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Porcentaje de cada familia sobre la generación mensual'"
+                  "Value": "'Porcentaje de cada familia sobre la generación de cada trimestre'"
                 }
               }
             },

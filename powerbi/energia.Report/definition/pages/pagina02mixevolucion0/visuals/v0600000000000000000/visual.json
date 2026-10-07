@@ -24,12 +24,12 @@
                       "Entity": "dim_tecnologia"
                     }
                   },
-                  "Property": "nombre"
+                  "Property": "familia"
                 }
               },
-              "queryRef": "dim_tecnologia.nombre",
-              "nativeQueryRef": "nombre",
-              "displayName": "Tecnología"
+              "queryRef": "dim_tecnologia.familia",
+              "nativeQueryRef": "familia",
+              "displayName": "Familia"
             }
           ]
         },
@@ -158,7 +158,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "9D"
+                  "Value": "10D"
                 }
               }
             },
@@ -273,7 +273,7 @@
             "rowPadding": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "4D"
                 }
               }
             }
@@ -315,7 +315,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Peso de cada tecnología por año'"
+                  "Value": "'Peso de cada familia por año'"
                 }
               }
             },

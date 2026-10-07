@@ -80,6 +80,11 @@ table dim_fecha
 		summarizeBy: none
 		sourceColumn: tipo_dia
 
+	column anio_trimestre
+		dataType: string
+		summarizeBy: none
+		sourceColumn: anio_trimestre
+
 	partition dim_fecha = m
 		mode: import
 		source =
@@ -90,6 +95,7 @@ table dim_fecha
 				    Booleanos = Table.TransformColumns(Columnas, {{"es_fin_de_semana", each _ = "t", type logical}}),
 				    Tipos = Table.TransformColumnTypes(Booleanos, {{"fecha_id", Int64.Type}, {"fecha", type date}, {"anio", Int64.Type}, {"trimestre", Int64.Type}, {"mes", Int64.Type}, {"anio_mes", type text}, {"nombre_mes", type text}, {"dia", Int64.Type}, {"dia_semana", Int64.Type}, {"nombre_dia", type text}}, "en-US"),
 				    Mes = Table.AddColumn(Tipos, "mes_inicio", each Date.StartOfMonth([fecha]), type date),
-				    TipoDia = Table.AddColumn(Mes, "tipo_dia", each if [es_fin_de_semana] then "Fin de semana" else "Laborable", type text)
+				    TipoDia = Table.AddColumn(Mes, "tipo_dia", each if [es_fin_de_semana] then "Fin de semana" else "Entre semana", type text),
+				    Trimestre = Table.AddColumn(TipoDia, "anio_trimestre", each Text.From([anio]) & "-T" & Text.From([trimestre]), type text)
 				in
-				    TipoDia
+				    Trimestre

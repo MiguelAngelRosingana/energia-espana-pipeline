@@ -5,7 +5,7 @@
     "x": 640,
     "y": 162,
     "z": 5,
-    "height": 252,
+    "height": 266,
     "width": 616,
     "tabOrder": 5
   },
@@ -92,6 +92,24 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Medidas"
+                  }
+                },
+                "Property": "Generación total (MWh)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
@@ -228,7 +246,7 @@
             "rowPadding": {
               "expr": {
                 "Literal": {
-                  "Value": "6D"
+                  "Value": "3D"
                 }
               }
             }
