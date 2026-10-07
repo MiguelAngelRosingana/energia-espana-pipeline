@@ -5,7 +5,7 @@ Pipeline en Python y SQL que descarga cada día la **generación eléctrica por 
 **incremental** en PostgreSQL y la deja en un **modelo en estrella** listo para Power BI, con
 **controles de calidad** y **tests** (incluidos tests de integración con una base de datos real).
 
-[![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
+[![CI](https://github.com/MiguelAngelRosingana/energia-espana-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/MiguelAngelRosingana/energia-espana-pipeline/actions/workflows/ci.yml)
 
 > Proyecto personal de portfolio. Los datos son públicos; no hay datos de ninguna empresa.
 
