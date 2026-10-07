@@ -1,0 +1,984 @@
+{
+ "data": {
+  "type": "Generación por tecnología",
+  "id": "gen1",
+  "attributes": {
+   "title": "Generación por tecnología",
+   "last-update": "2026-07-08T18:27:19.000+02:00",
+   "description": null
+  },
+  "meta": {
+   "cache-control": {
+    "cache": "MISS"
+   }
+  }
+ },
+ "included": [
+  {
+   "type": "Hidráulica",
+   "id": "10288",
+   "groupId": "1",
+   "attributes": {
+    "title": "Hidráulica",
+    "description": null,
+    "color": "#0090d1",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:16.000+02:00",
+    "values": [
+     {
+      "value": 77535.05,
+      "percentage": 0.10144082113645676,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 75666.69,
+      "percentage": 0.10142855915374079,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 54540.11,
+      "percentage": 0.08088638545322246,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 55010.07,
+      "percentage": 0.08699783367604208,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 75908.76,
+      "percentage": 0.10315111908902226,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 66354.45,
+      "percentage": 0.08712388622995401,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 66150.29,
+      "percentage": 0.0883700949535513,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Nuclear",
+   "id": "1446",
+   "groupId": "1",
+   "attributes": {
+    "title": "Nuclear",
+    "description": null,
+    "color": "#464394",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:16.000+02:00",
+    "values": [
+     {
+      "value": 146991.68,
+      "percentage": 0.19231246667703558,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 142543.24,
+      "percentage": 0.1910742421837914,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 122861.88,
+      "percentage": 0.18221183241448474,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 117754.26,
+      "percentage": 0.18622709489599656,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 122884.17,
+      "percentage": 0.16698520241702877,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 122906.13,
+      "percentage": 0.1613766625611988,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 122848.04,
+      "percentage": 0.16411255278937809,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Carbón",
+   "id": "10289",
+   "groupId": "1",
+   "attributes": {
+    "title": "Carbón",
+    "description": null,
+    "color": "#993300",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:16.000+02:00",
+    "values": [
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-05T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-06T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-07T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-08T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-09T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-10T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-11T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-12T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-13T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-14T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-15T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-16T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-17T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-18T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-19T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-20T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-21T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-22T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-23T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-24T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-25T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-26T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-27T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 0,
+      "percentage": 0,
+      "datetime": "2026-04-30T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Turbina de vapor",
+   "id": "1451",
+   "groupId": "1",
+   "attributes": {
+    "title": "Turbina de vapor",
+    "description": null,
+    "color": "#AF8E00",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:17.000+02:00",
+    "values": [
+     {
+      "value": 6517.36,
+      "percentage": 0.008526806264288186,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 6517.98,
+      "percentage": 0.008737124882731083,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 5985.55,
+      "percentage": 0.00887694404080842,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 5753.11,
+      "percentage": 0.009098481548923214,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 6595.64,
+      "percentage": 0.008962702685544052,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 7928.74,
+      "percentage": 0.01041049457431846,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 7725.12,
+      "percentage": 0.010319978762414772,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Ciclo combinado",
+   "id": "1454",
+   "groupId": "1",
+   "attributes": {
+    "title": "Ciclo combinado",
+    "description": null,
+    "color": "#ffcc66",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:17.000+02:00",
+    "values": [
+     {
+      "value": 68409.57,
+      "percentage": 0.08950175377963797,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 68411.76,
+      "percentage": 0.09170357849631743,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 64131.22,
+      "percentage": 0.09511059989621233,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 69337.42,
+      "percentage": 0.10965638350734462,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 70303.06,
+      "percentage": 0.09553362898277717,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 64347.63,
+      "percentage": 0.08448891664820031,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 66479.69,
+      "percentage": 0.08881014002784653,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Eólica",
+   "id": "10291",
+   "groupId": "1",
+   "attributes": {
+    "title": "Eólica",
+    "description": null,
+    "color": "#6fb114",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:17.000+02:00",
+    "values": [
+     {
+      "value": 258689.25,
+      "percentage": 0.3384488684688298,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 242273.94,
+      "percentage": 0.32475976753707403,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 250062.14,
+      "percentage": 0.37085775300595614,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 231819.25,
+      "percentage": 0.36661964899162675,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 237907.95,
+      "percentage": 0.323289054948008,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 285761.02,
+      "percentage": 0.37520634404227016,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 270053.5,
+      "percentage": 0.3607641544358894,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Solar fotovoltaica",
+   "id": "1458",
+   "groupId": "1",
+   "attributes": {
+    "title": "Solar fotovoltaica",
+    "description": null,
+    "color": "#e48500",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:18.000+02:00",
+    "values": [
+     {
+      "value": 158233.09,
+      "percentage": 0.20701985206121443,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 161270.09,
+      "percentage": 0.21617693153082418,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 129559.84,
+      "percentage": 0.19214532492688094,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 109075.95,
+      "percentage": 0.1725024410286386,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 173292.25,
+      "percentage": 0.23548388245249452,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 165499.03,
+      "percentage": 0.21730145696163175,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 165321.04,
+      "percentage": 0.22085218375641066,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Solar térmica",
+   "id": "1459",
+   "groupId": "1",
+   "attributes": {
+    "title": "Solar térmica",
+    "description": null,
+    "color": "#ff0000",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:18.000+02:00",
+    "values": [
+     {
+      "value": 20364.22,
+      "percentage": 0.02664295952093222,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 21752.75,
+      "percentage": 0.029158802772151587,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 21089.37,
+      "percentage": 0.031276851307883796,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 18705.09,
+      "percentage": 0.02958189852722234,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 21706.74,
+      "percentage": 0.029496918705752054,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 22310.95,
+      "percentage": 0.029294443243553257,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 21947.95,
+      "percentage": 0.029320240705457173,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 19556.43,
+      "percentage": 1,
+      "datetime": "2026-04-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 19785.61,
+      "percentage": 1,
+      "datetime": "2026-04-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 21804.33,
+      "percentage": 1,
+      "datetime": "2026-04-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 21490,
+      "percentage": 1,
+      "datetime": "2026-04-05T00:00:00.000+02:00"
+     },
+     {
+      "value": 16392.66,
+      "percentage": 1,
+      "datetime": "2026-04-06T00:00:00.000+02:00"
+     },
+     {
+      "value": 1788.08,
+      "percentage": 1,
+      "datetime": "2026-04-07T00:00:00.000+02:00"
+     },
+     {
+      "value": 2038.18,
+      "percentage": 1,
+      "datetime": "2026-04-08T00:00:00.000+02:00"
+     },
+     {
+      "value": 5144.77,
+      "percentage": 1,
+      "datetime": "2026-04-09T00:00:00.000+02:00"
+     },
+     {
+      "value": 3728.13,
+      "percentage": 1,
+      "datetime": "2026-04-10T00:00:00.000+02:00"
+     },
+     {
+      "value": 903.92,
+      "percentage": 1,
+      "datetime": "2026-04-11T00:00:00.000+02:00"
+     },
+     {
+      "value": 7831.45,
+      "percentage": 1,
+      "datetime": "2026-04-12T00:00:00.000+02:00"
+     },
+     {
+      "value": 9470.54,
+      "percentage": 1,
+      "datetime": "2026-04-13T00:00:00.000+02:00"
+     },
+     {
+      "value": 16175.1,
+      "percentage": 1,
+      "datetime": "2026-04-14T00:00:00.000+02:00"
+     },
+     {
+      "value": 21288,
+      "percentage": 1,
+      "datetime": "2026-04-15T00:00:00.000+02:00"
+     },
+     {
+      "value": 19436.97,
+      "percentage": 1,
+      "datetime": "2026-04-16T00:00:00.000+02:00"
+     },
+     {
+      "value": 17445.92,
+      "percentage": 1,
+      "datetime": "2026-04-17T00:00:00.000+02:00"
+     },
+     {
+      "value": 19393.07,
+      "percentage": 1,
+      "datetime": "2026-04-18T00:00:00.000+02:00"
+     },
+     {
+      "value": 18911.57,
+      "percentage": 1,
+      "datetime": "2026-04-19T00:00:00.000+02:00"
+     },
+     {
+      "value": 15343.61,
+      "percentage": 1,
+      "datetime": "2026-04-20T00:00:00.000+02:00"
+     },
+     {
+      "value": 2925.9,
+      "percentage": 1,
+      "datetime": "2026-04-21T00:00:00.000+02:00"
+     },
+     {
+      "value": 10989.82,
+      "percentage": 1,
+      "datetime": "2026-04-22T00:00:00.000+02:00"
+     },
+     {
+      "value": 5192.76,
+      "percentage": 1,
+      "datetime": "2026-04-23T00:00:00.000+02:00"
+     },
+     {
+      "value": 2493.96,
+      "percentage": 1,
+      "datetime": "2026-04-24T00:00:00.000+02:00"
+     },
+     {
+      "value": 5032.82,
+      "percentage": 1,
+      "datetime": "2026-04-25T00:00:00.000+02:00"
+     },
+     {
+      "value": 18686.39,
+      "percentage": 1,
+      "datetime": "2026-04-26T00:00:00.000+02:00"
+     },
+     {
+      "value": 20403.41,
+      "percentage": 1,
+      "datetime": "2026-04-27T00:00:00.000+02:00"
+     },
+     {
+      "value": 7455.9,
+      "percentage": 1,
+      "datetime": "2026-04-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 2159.21,
+      "percentage": 1,
+      "datetime": "2026-04-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 11910.75,
+      "percentage": 1,
+      "datetime": "2026-04-30T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Otras renovables",
+   "id": "10292",
+   "groupId": "1",
+   "attributes": {
+    "title": "Otras renovables",
+    "description": null,
+    "color": "#9a5cbc",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:18.000+02:00",
+    "values": [
+     {
+      "value": 10359.92,
+      "percentage": 0.013554112516958473,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 9946.22,
+      "percentage": 0.013332561046692006,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 8694.06,
+      "percentage": 0.012893833333182555,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 7581.08,
+      "percentage": 0.011989396430958352,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 8427.19,
+      "percentage": 0.011451564737400763,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 8022.31,
+      "percentage": 0.010533352680060228,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 9507.68,
+      "percentage": 0.012701298579159376,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Cogeneración",
+   "id": "10293",
+   "groupId": "1",
+   "attributes": {
+    "title": "Cogeneración",
+    "description": null,
+    "color": "#cfa2ca",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:19.000+02:00",
+    "values": [
+     {
+      "value": 14421.95,
+      "percentage": 0.018868556225718855,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 14904.89,
+      "percentage": 0.019979485253616872,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 14129.44,
+      "percentage": 0.02095484094326505,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 14021.63,
+      "percentage": 0.022175056941520013,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 15678.88,
+      "percentage": 0.02130576257684211,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 15110.88,
+      "percentage": 0.019840697797276406,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 15244.56,
+      "percentage": 0.020365189853666706,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Residuos no renovables",
+   "id": "10294",
+   "groupId": "1",
+   "attributes": {
+    "title": "Residuos no renovables",
+    "description": null,
+    "color": "#666666",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:19.000+02:00",
+    "values": [
+     {
+      "value": 1701.77,
+      "percentage": 0.0022264633373601747,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 1696.01,
+      "percentage": 0.002273442258546474,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 1960.065,
+      "percentage": 0.002906898667849597,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 1989.59,
+      "percentage": 0.0031465151726495994,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 1892.99,
+      "percentage": 0.0025723518197942933,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 2043.705,
+      "percentage": 0.002683399861012911,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 1983.79,
+      "percentage": 0.0026501427381180878,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Residuos renovables",
+   "id": "10295",
+   "groupId": "1",
+   "attributes": {
+    "title": "Residuos renovables",
+    "description": null,
+    "color": "#a0a0a0",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:19.000+02:00",
+    "values": [
+     {
+      "value": 1113.9,
+      "percentage": 0.0014573400115676612,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 1026.14,
+      "percentage": 0.001375504884514171,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 1266.795,
+      "percentage": 0.001878736010254012,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 1267.95,
+      "percentage": 0.002005249279078132,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 1300.93,
+      "percentage": 0.001767811585335892,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 1325.465,
+      "percentage": 0.0017403454005237929,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 1298.02,
+      "percentage": 0.0017340233981076828,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Generación total",
+   "id": "10296",
+   "groupId": "1",
+   "attributes": {
+    "title": "Generación total",
+    "description": null,
+    "color": "#2b2e34",
+    "icon": null,
+    "type": "total",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-07-08T18:27:19.000+02:00",
+    "values": [
+     {
+      "value": 764337.76,
+      "percentage": 1,
+      "datetime": "2026-03-26T00:00:00.000+01:00"
+     },
+     {
+      "value": 746009.71,
+      "percentage": 1,
+      "datetime": "2026-03-27T00:00:00.000+01:00"
+     },
+     {
+      "value": 674280.47,
+      "percentage": 1,
+      "datetime": "2026-03-28T00:00:00.000+01:00"
+     },
+     {
+      "value": 632315.4,
+      "percentage": 1,
+      "datetime": "2026-03-29T00:00:00.000+01:00"
+     },
+     {
+      "value": 735898.56,
+      "percentage": 1,
+      "datetime": "2026-03-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 761610.31,
+      "percentage": 1,
+      "datetime": "2026-03-31T00:00:00.000+02:00"
+     },
+     {
+      "value": 748559.68,
+      "percentage": 1,
+      "datetime": "2026-04-01T00:00:00.000+02:00"
+     }
+    ]
+   }
+  }
+ ]
+}

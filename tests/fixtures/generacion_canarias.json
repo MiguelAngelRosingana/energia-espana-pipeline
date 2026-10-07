@@ -1,0 +1,418 @@
+{
+ "data": {
+  "type": "Generación por tecnología",
+  "id": "gen1",
+  "attributes": {
+   "title": "Generación por tecnología",
+   "last-update": "2026-10-01T07:53:07.000+02:00",
+   "description": null
+  },
+  "meta": {
+   "cache-control": {
+    "cache": "HIT",
+    "expireAt": "2026-11-06T11:12:55"
+   }
+  }
+ },
+ "included": [
+  {
+   "type": "Motores diésel",
+   "id": "10344",
+   "groupId": "1",
+   "attributes": {
+    "title": "Motores diésel",
+    "description": null,
+    "color": "#8DA69F",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-01T07:53:04.000+02:00",
+    "values": [
+     {
+      "value": 6635.97,
+      "percentage": 0.2356171183214441,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 6721.07,
+      "percentage": 0.23773473451875224,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 6798.47,
+      "percentage": 0.2403777750434545,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 6163.67,
+      "percentage": 0.21649176749843435,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 4927.16,
+      "percentage": 0.17681314611676824,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 4747.83,
+      "percentage": 0.18359922273030482,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 5345.45,
+      "percentage": 0.2159990722317675,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 6390.55,
+      "percentage": 0.23098237130889226,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Turbina de gas",
+   "id": "1450",
+   "groupId": "1",
+   "attributes": {
+    "title": "Turbina de gas",
+    "description": null,
+    "color": "#BA0F16",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-07T07:59:57.000+02:00",
+    "values": [
+     {
+      "value": 1258.7,
+      "percentage": 0.04469147190707639,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 952.51,
+      "percentage": 0.03369176514698652,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 1045.1,
+      "percentage": 0.03695225730170381,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 623.97,
+      "percentage": 0.02191622331597864,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 566.47,
+      "percentage": 0.020328006981864953,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 962.07,
+      "percentage": 0.03720337590270594,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 859.43,
+      "percentage": 0.034727868121140024,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 1218.72,
+      "percentage": 0.044049860428534815,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Turbina de vapor",
+   "id": "1451",
+   "groupId": "1",
+   "attributes": {
+    "title": "Turbina de vapor",
+    "description": null,
+    "color": "#AF8E00",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-07T07:59:58.000+02:00",
+    "values": [
+     {
+      "value": 6216.59,
+      "percentage": 0.22072658881608961,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 6747.71,
+      "percentage": 0.23867703289201417,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 6621.06,
+      "percentage": 0.23410497821262946,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 4307.35,
+      "percentage": 0.151290678237865,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 3782.47,
+      "percentage": 0.1357354786108615,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 3856.74,
+      "percentage": 0.14914065294521409,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 4353.73,
+      "percentage": 0.17592562660722916,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 6062.25,
+      "percentage": 0.2191161763020917,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Ciclo combinado",
+   "id": "1454",
+   "groupId": "1",
+   "attributes": {
+    "title": "Ciclo combinado",
+    "description": null,
+    "color": "#ffcc66",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-07T07:59:58.000+02:00",
+    "values": [
+     {
+      "value": 11901.86,
+      "percentage": 0.4225881002875635,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 11776.86,
+      "percentage": 0.4165659166716777,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 10807.93,
+      "percentage": 0.3821427712743313,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 9620.43,
+      "percentage": 0.3379064574831168,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 8107.08,
+      "percentage": 0.2909258722307231,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 7090.73,
+      "percentage": 0.2741994798866965,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 7967.75,
+      "percentage": 0.32196103373423485,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 9816.17,
+      "percentage": 0.3547992307033368,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Eólica",
+   "id": "10291",
+   "groupId": "1",
+   "attributes": {
+    "title": "Eólica",
+    "description": null,
+    "color": "#6fb114",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-01T07:53:05.000+02:00",
+    "values": [
+     {
+      "value": 439.68,
+      "percentage": 0.01561130242957285,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 332.39,
+      "percentage": 0.011757153013833817,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 1377.72,
+      "percentage": 0.04871291161582947,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 6425.44,
+      "percentage": 0.22568613546071412,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 9125.39,
+      "percentage": 0.3274683418931993,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 7619.29,
+      "percentage": 0.29463896596061445,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 4699.28,
+      "percentage": 0.1898886193224706,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 2608.09,
+      "percentage": 0.0942677567325205,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Solar fotovoltaica",
+   "id": "1458",
+   "groupId": "1",
+   "attributes": {
+    "title": "Solar fotovoltaica",
+    "description": null,
+    "color": "#e48500",
+    "icon": null,
+    "type": "Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-07T07:59:58.000+02:00",
+    "values": [
+     {
+      "value": 1711.41,
+      "percentage": 0.06076541823825344,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 1740.76,
+      "percentage": 0.06157339775673563,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 1632.16,
+      "percentage": 0.05770930655205138,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 1329.83,
+      "percentage": 0.04670873800389101,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 1357.91,
+      "percentage": 0.04872915416658294,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 1583.09,
+      "percentage": 0.06121830257446417,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 1521.92,
+      "percentage": 0.061497779983157946,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 1571.05,
+      "percentage": 0.05678460452462389,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Generación total",
+   "id": "10296",
+   "groupId": "1",
+   "attributes": {
+    "title": "Generación total",
+    "description": null,
+    "color": "#2b2e34",
+    "icon": null,
+    "type": "total",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-01T07:53:07.000+02:00",
+    "values": [
+     {
+      "value": 28164.21,
+      "percentage": 1,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 28271.3,
+      "percentage": 1,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 28282.44,
+      "percentage": 1,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 28470.69,
+      "percentage": 1,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 27866.48,
+      "percentage": 1,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 25859.75,
+      "percentage": 1,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 24747.56,
+      "percentage": 1,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 27666.83,
+      "percentage": 1,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  }
+ ]
+}

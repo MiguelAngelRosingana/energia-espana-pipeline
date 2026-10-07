@@ -1,0 +1,133 @@
+{
+ "data": {
+  "type": "Generación por tecnología",
+  "id": "gen1",
+  "attributes": {
+   "title": "Generación por tecnología",
+   "last-update": "2026-10-01T07:53:07.000+02:00",
+   "description": null
+  },
+  "meta": {
+   "cache-control": {
+    "cache": "HIT",
+    "expireAt": "2026-11-06T11:12:57"
+   }
+  }
+ },
+ "included": [
+  {
+   "type": "Motores diésel",
+   "id": "10344",
+   "groupId": "1",
+   "attributes": {
+    "title": "Motores diésel",
+    "description": null,
+    "color": "#8DA69F",
+    "icon": null,
+    "type": "No-Renovable",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-01T07:53:04.000+02:00",
+    "values": [
+     {
+      "value": 644.02,
+      "percentage": 1,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 644.8,
+      "percentage": 1,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 639.65,
+      "percentage": 1,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 655.62,
+      "percentage": 1,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 652.03,
+      "percentage": 1,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 605.93,
+      "percentage": 1,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 589.25,
+      "percentage": 1,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 657.15,
+      "percentage": 1,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Generación total",
+   "id": "10296",
+   "groupId": "1",
+   "attributes": {
+    "title": "Generación total",
+    "description": null,
+    "color": "#2b2e34",
+    "icon": null,
+    "type": "total",
+    "magnitude": null,
+    "composite": false,
+    "last-update": "2026-10-01T07:53:07.000+02:00",
+    "values": [
+     {
+      "value": 644.02,
+      "percentage": 1,
+      "datetime": "2026-09-28T00:00:00.000+02:00"
+     },
+     {
+      "value": 644.8,
+      "percentage": 1,
+      "datetime": "2026-09-29T00:00:00.000+02:00"
+     },
+     {
+      "value": 639.65,
+      "percentage": 1,
+      "datetime": "2026-09-30T00:00:00.000+02:00"
+     },
+     {
+      "value": 655.62,
+      "percentage": 1,
+      "datetime": "2026-10-01T00:00:00.000+02:00"
+     },
+     {
+      "value": 652.03,
+      "percentage": 1,
+      "datetime": "2026-10-02T00:00:00.000+02:00"
+     },
+     {
+      "value": 605.93,
+      "percentage": 1,
+      "datetime": "2026-10-03T00:00:00.000+02:00"
+     },
+     {
+      "value": 589.25,
+      "percentage": 1,
+      "datetime": "2026-10-04T00:00:00.000+02:00"
+     },
+     {
+      "value": 657.15,
+      "percentage": 1,
+      "datetime": "2026-10-05T00:00:00.000+02:00"
+     }
+    ]
+   }
+  }
+ ]
+}

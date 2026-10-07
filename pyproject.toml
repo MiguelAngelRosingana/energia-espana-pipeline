@@ -1,0 +1,21 @@
+[project]
+name = "energia-espana-pipeline"
+version = "0.1.0"
+description = "Pipeline ELT incremental de generación y demanda eléctrica de España (API REData de Red Eléctrica) hacia un modelo en estrella en PostgreSQL"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integracion: necesita PostgreSQL (TEST_DATABASE_URL)",
+    "live: llama a la API real de Red Eléctrica (se excluye por defecto)",
+]
+addopts = "-m 'not live'"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
