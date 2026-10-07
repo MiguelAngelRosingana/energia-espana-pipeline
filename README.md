@@ -186,7 +186,26 @@ puntos fuera de rango, series ausentes y el cambio de hora.
 
 ## Qué he aprendido
 
-_(Pendiente: lo escribo yo, con mis palabras.)_
+- **La realidad rompió mis supuestos, y eso fue lo más útil.** Puse `CHECK (mwh >= 0)` en la
+  generación y la carga real falló: la generación neta del Carbón es negativa algunos días (hasta
+  −94,5 MWh). Lo sustituí por dos controles, negativos menores (aviso) y extremos (error). Aprendí a
+  distinguir entre un dato raro, que se registra, y un dato roto, que debe parar la carga.
+- **Una API puede ser poco clara sin fallar.** Devuelve el mismo 400 para errores permanentes y
+  transitorios, así que un reintento ciego no sirve y no reintento los 400. También devuelve a veces
+  puntos fuera del rango pedido y series que desaparecen un día: ausente no es cero.
+- **Los tests con base de datos real encontraron fallos de diseño, no solo de código.** El control
+  «los sistemas suman el nacional» fallaba cuando solo cambiaba uno de ellos (hizo falta guardar el
+  nacional aparte para conciliar); una respuesta idéntica puesta en cuarentena no se podía volver a
+  procesar nunca (añadí el reencolado); y unas conexiones sin cerrar dejaban colgado el borrado de
+  esquemas en los tests.
+- **Medir antes de optimizar.** La carga inicial tarda unos 259 s y la transformación SQL de 81.000
+  filas unos 11 s: el cuello de botella es la latencia de la API, no la base de datos.
+- **En Power BI, el % renovable es un cociente de sumas.** Promediar los porcentajes diarios daría el
+  mismo peso a un día flojo que a uno fuerte. Contrasté las cifras del informe con las vistas SQL
+  (por ejemplo, el 55,1 % global coincide).
+- **Con más tiempo** añadiría datos horarios, una tabla propia con el histórico de revisiones (hoy el
+  detalle de qué cambió queda en la capa `raw`), un orquestador con alertas y la conexión directa de
+  Power BI a PostgreSQL en lugar de a CSV.
 
 ## Licencia y fuente de los datos
 
