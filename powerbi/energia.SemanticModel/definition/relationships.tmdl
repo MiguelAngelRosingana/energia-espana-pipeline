@@ -1,0 +1,27 @@
+relationship 5349c522-c3df-435e-8f34-83e14080dd7b
+	fromColumn: fact_generacion.fecha_id
+	toColumn: dim_fecha.fecha_id
+
+relationship b71d781e-768a-479b-96fc-7932fbd9c57c
+	fromColumn: fact_generacion_total.fecha_id
+	toColumn: dim_fecha.fecha_id
+
+relationship e6e376a6-52c3-4c33-a3ea-8abedcd5304f
+	fromColumn: fact_demanda.fecha_id
+	toColumn: dim_fecha.fecha_id
+
+relationship 5d43d60d-e578-4b02-b454-82af5e0dfb35
+	fromColumn: fact_generacion.sistema_id
+	toColumn: dim_sistema.sistema_id
+
+relationship 674a206f-fc7c-4944-8e89-708b7d66942a
+	fromColumn: fact_generacion_total.sistema_id
+	toColumn: dim_sistema.sistema_id
+
+relationship c80e3b9c-83be-48ec-8129-792ebeb6caa4
+	fromColumn: fact_demanda.sistema_id
+	toColumn: dim_sistema.sistema_id
+
+relationship 81cdace1-c190-4857-b349-a073b1631cc5
+	fromColumn: fact_generacion.tecnologia_id
+	toColumn: dim_tecnologia.tecnologia_id

@@ -1,0 +1,32 @@
+table fact_demanda
+
+	column fecha_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: fecha_id
+
+	column sistema_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: sistema_id
+
+	column mwh
+		dataType: double
+		formatString: #,0.0
+		summarizeBy: none
+		sourceColumn: mwh
+
+	partition fact_demanda = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "fact_demanda.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Columnas = Table.SelectColumns(Encabezados, {"fecha_id", "sistema_id", "mwh"}),
+				    Tipos = Table.TransformColumnTypes(Columnas, {{"fecha_id", Int64.Type}, {"sistema_id", Int64.Type}, {"mwh", type number}}, "en-US")
+				in
+				    Tipos

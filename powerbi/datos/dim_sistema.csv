@@ -1,0 +1,6 @@
+sistema_id,codigo,nombre,es_peninsular
+8741,peninsular,Península,t
+8742,canarias,Canarias,f
+8743,baleares,Baleares,f
+8744,ceuta,Ceuta,f
+8745,melilla,Melilla,f

@@ -1,0 +1,3 @@
+expression RutaDatos = "C:\tmp\energia\powerbi\datos\" meta [IsParameterQuery = true, IsParameterQueryRequired = true, Type = "Text"]
+	lineageTag: 07978e1c-36dd-4eee-ae70-533befe9e436
+	annotation PBI_ResultType = Text

@@ -1,0 +1,17 @@
+tecnologia_id,nombre,tipo,es_renovable,familia
+1446,Nuclear,No-Renovable,f,Nuclear
+1450,Turbina de gas,No-Renovable,f,Gas
+1451,Turbina de vapor,No-Renovable,f,Otras
+1454,Ciclo combinado,No-Renovable,f,Gas
+1455,Hidroeólica,Renovable,t,Eólica
+1458,Solar fotovoltaica,Renovable,t,Solar
+1459,Solar térmica,Renovable,t,Solar
+10288,Hidráulica,Renovable,t,Hidráulica
+10289,Carbón,No-Renovable,f,Carbón
+10290,Fuel + Gas,No-Renovable,f,Otras
+10291,Eólica,Renovable,t,Eólica
+10292,Otras renovables,Renovable,t,Otras
+10293,Cogeneración,No-Renovable,f,Cogeneración
+10294,Residuos no renovables,No-Renovable,f,Otras
+10295,Residuos renovables,Renovable,t,Otras
+10344,Motores diésel,No-Renovable,f,Otras

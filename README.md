@@ -21,6 +21,7 @@ Pipeline en Python y SQL que descarga cada día la **generación eléctrica por 
 | Consumo de una API real con sus rarezas (límites, errores ambiguos, series intermitentes) | [`energia/redata.py`](energia/redata.py), «Notas sobre la fuente» |
 | Tests con PostgreSQL real, fixtures reales y CI | [`tests/`](tests), [`.github/workflows/`](.github/workflows) |
 | Capa de consumo para BI | [`sql/004_vistas.sql`](sql/004_vistas.sql), [`docs/powerbi.md`](docs/powerbi.md) |
+| Informe de Power BI sobre el modelo (proyecto PBIP, medidas DAX, 3 páginas) | [`powerbi/`](powerbi) |
 
 ## Arquitectura
 

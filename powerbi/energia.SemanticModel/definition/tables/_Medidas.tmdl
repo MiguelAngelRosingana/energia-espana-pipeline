@@ -1,0 +1,87 @@
+table _Medidas
+
+	column Columna
+		dataType: int64
+		isHidden
+		summarizeBy: none
+		sourceColumn: Columna
+
+	measure 'Generación (MWh)' = SUM ( fact_generacion[mwh] )
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Generación total (MWh)' = SUM ( fact_generacion_total[mwh_total] )
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Demanda (MWh)' = SUM ( fact_demanda[mwh] )
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Generación (TWh)' = DIVIDE ( [Generación total (MWh)], 1000000 )
+		formatString: #,0.0
+		displayFolder: 1 Base
+
+	measure 'Demanda (TWh)' = DIVIDE ( [Demanda (MWh)], 1000000 )
+		formatString: #,0.0
+		displayFolder: 1 Base
+
+	measure 'Generación renovable (MWh)' = CALCULATE ( [Generación (MWh)], dim_tecnologia[es_renovable] = TRUE () )
+		formatString: #,0
+		displayFolder: 2 Renovables
+
+	measure '% renovable' = DIVIDE ( [Generación renovable (MWh)], [Generación (MWh)] )
+		formatString: 0.0%
+		displayFolder: 2 Renovables
+
+	measure '% mix de la tecnología' = DIVIDE ( [Generación (MWh)], CALCULATE ( [Generación (MWh)], ALL ( dim_tecnologia ) ) )
+		formatString: 0.0%
+		displayFolder: 2 Renovables
+
+	measure 'Balance generación - demanda (MWh)' = [Generación total (MWh)] - [Demanda (MWh)]
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Generación año anterior (MWh)' = CALCULATE ( [Generación total (MWh)], SAMEPERIODLASTYEAR ( dim_fecha[fecha] ) )
+		formatString: #,0
+		displayFolder: 3 Comparativas
+
+	measure 'Variación interanual %' = DIVIDE ( [Generación total (MWh)] - [Generación año anterior (MWh)], [Generación año anterior (MWh)] )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 3 Comparativas
+
+	measure '% renovable año anterior' = CALCULATE ( [% renovable], SAMEPERIODLASTYEAR ( dim_fecha[fecha] ) )
+		formatString: 0.0%
+		displayFolder: 3 Comparativas
+
+	measure 'Δ % renovable vs año anterior (pp)' = ( [% renovable] - [% renovable año anterior] ) * 100
+		formatString: +0.0;-0.0;0.0
+		displayFolder: 3 Comparativas
+
+	measure '% renovable media móvil 30 d' = CALCULATE ( [% renovable], DATESINPERIOD ( dim_fecha[fecha], MAX ( dim_fecha[fecha] ), -30, DAY ) )
+		formatString: 0.0%
+		displayFolder: 3 Comparativas
+
+	measure 'Días con datos' = DISTINCTCOUNT ( fact_generacion_total[fecha_id] )
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Generación tecnologías (TWh)' = DIVIDE ( [Generación (MWh)], 1000000 )
+		formatString: #,0.0
+		displayFolder: 1 Base
+
+	measure 'Demanda (GWh)' = DIVIDE ( [Demanda (MWh)], 1000 )
+		formatString: #,0
+		displayFolder: 1 Base
+
+	measure 'Generación renovable (GWh)' = DIVIDE ( [Generación renovable (MWh)], 1000 )
+		formatString: #,0
+		displayFolder: 2 Renovables
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Origen = #table(type table [Columna = Int64.Type], {})
+				in
+				    Origen

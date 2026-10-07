@@ -1,0 +1,14 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+
+ref table dim_fecha
+ref table dim_sistema
+ref table dim_tecnologia
+ref table fact_generacion
+ref table fact_generacion_total
+ref table fact_demanda
+ref table _Medidas
+
+ref expression RutaDatos

@@ -1,0 +1,40 @@
+table dim_tecnologia
+
+	column tecnologia_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: tecnologia_id
+
+	column nombre
+		dataType: string
+		summarizeBy: none
+		sourceColumn: nombre
+
+	column tipo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tipo
+
+	column es_renovable
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: es_renovable
+
+	column familia
+		dataType: string
+		summarizeBy: none
+		sourceColumn: familia
+
+	partition dim_tecnologia = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "dim_tecnologia.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Columnas = Table.SelectColumns(Encabezados, {"tecnologia_id", "nombre", "tipo", "es_renovable", "familia"}),
+				    Booleanos = Table.TransformColumns(Columnas, {{"es_renovable", each _ = "t", type logical}}),
+				    Tipos = Table.TransformColumnTypes(Booleanos, {{"tecnologia_id", Int64.Type}, {"nombre", type text}, {"tipo", type text}, {"familia", type text}}, "en-US")
+				in
+				    Tipos

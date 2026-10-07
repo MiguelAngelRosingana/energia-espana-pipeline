@@ -1,0 +1,41 @@
+{
+  "name": "Energía España",
+  "dataColors": [
+    "#2F6B4F",
+    "#C9A96A",
+    "#4F7A8F",
+    "#B5764A",
+    "#7A6A8F",
+    "#5A5A55",
+    "#A89F8A",
+    "#CFC8B8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2A24",
+  "tableAccent": "#2F6B4F",
+  "good": "#2F6B4F",
+  "bad": "#A45A4A",
+  "neutral": "#C9A96A",
+  "textClasses": {
+    "title": {
+      "fontFace": "Georgia",
+      "fontSize": 12,
+      "color": "#1F2A24"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#6B756E"
+    },
+    "callout": {
+      "fontFace": "Georgia",
+      "fontSize": 28,
+      "color": "#2F6B4F"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 10,
+      "color": "#1F2A24"
+    }
+  }
+}

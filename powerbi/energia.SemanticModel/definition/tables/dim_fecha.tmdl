@@ -1,0 +1,95 @@
+table dim_fecha
+	dataCategory: Time
+
+	column fecha_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: fecha_id
+
+	column fecha
+		dataType: dateTime
+		isKey
+		formatString: dd/mm/yyyy
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column anio
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: anio
+
+	column trimestre
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: trimestre
+
+	column mes
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: mes
+
+	column anio_mes
+		dataType: string
+		summarizeBy: none
+		sourceColumn: anio_mes
+
+	column nombre_mes
+		dataType: string
+		sortByColumn: mes
+		summarizeBy: none
+		sourceColumn: nombre_mes
+
+	column dia
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: dia
+
+	column dia_semana
+		dataType: int64
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: dia_semana
+
+	column nombre_dia
+		dataType: string
+		sortByColumn: dia_semana
+		summarizeBy: none
+		sourceColumn: nombre_dia
+
+	column es_fin_de_semana
+		dataType: boolean
+		summarizeBy: none
+		sourceColumn: es_fin_de_semana
+
+	column mes_inicio
+		dataType: dateTime
+		formatString: mmm yyyy
+		summarizeBy: none
+		sourceColumn: mes_inicio
+
+	column tipo_dia
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tipo_dia
+
+	partition dim_fecha = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaDatos & "dim_fecha.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Columnas = Table.SelectColumns(Encabezados, {"fecha_id", "fecha", "anio", "trimestre", "mes", "anio_mes", "nombre_mes", "dia", "dia_semana", "nombre_dia", "es_fin_de_semana"}),
+				    Booleanos = Table.TransformColumns(Columnas, {{"es_fin_de_semana", each _ = "t", type logical}}),
+				    Tipos = Table.TransformColumnTypes(Booleanos, {{"fecha_id", Int64.Type}, {"fecha", type date}, {"anio", Int64.Type}, {"trimestre", Int64.Type}, {"mes", Int64.Type}, {"anio_mes", type text}, {"nombre_mes", type text}, {"dia", Int64.Type}, {"dia_semana", Int64.Type}, {"nombre_dia", type text}}, "en-US"),
+				    Mes = Table.AddColumn(Tipos, "mes_inicio", each Date.StartOfMonth([fecha]), type date),
+				    TipoDia = Table.AddColumn(Mes, "tipo_dia", each if [es_fin_de_semana] then "Fin de semana" else "Laborable", type text)
+				in
+				    TipoDia

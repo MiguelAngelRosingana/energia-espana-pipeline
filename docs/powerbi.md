@@ -114,7 +114,7 @@ Tarjetas: generación total, demanda, % renovable y Δ vs año anterior. Línea:
 30 d) por día. Barras: generación por familia de tecnología del periodo. Segmentadores: año, sistema.
 
 **Página 2 — Mix y evolución.**
-Áreas apiladas al 100 % por mes y `familia`, para ver cómo cambia el mix (qué sube: solar, eólica; qué
+Columnas apiladas al 100 % por mes y `familia` (Power BI no tiene áreas al 100 %), para ver cómo cambia el mix (qué sube: solar, eólica; qué
 baja: ciclo combinado, carbón). Matriz tecnología × año con `% mix de la tecnología` y formato condicional.
 Dispersión día a día: demanda frente a generación renovable, coloreada por fin de semana.
 
